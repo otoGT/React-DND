@@ -10,10 +10,10 @@ function Picture({ id, url }) {
     }),
   }));
   return (
-    <img
+    <img className="rame"
       ref={drag}
       src={url}
-      width="150px"
+      width="130px"
       style={{ border: isDragging ? "5px solid pink" : "0px" }}
     />
   );

@@ -7,6 +7,11 @@ function App() {
     <DndProvider backend={HTML5Backend}>
       <div className="App">
         <DragDrop />
+        <div className="question">
+          <h1>Do you want to delete this picture?</h1>
+          <button className="btn">No</button>
+          <button className="btn">Yes</button>
+        </div>
       </div>
     </DndProvider>
   );

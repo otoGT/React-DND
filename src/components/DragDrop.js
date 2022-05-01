@@ -20,6 +20,10 @@ const PictureList = [
       "https://cdn.wallpapersafari.com/72/78/7cBvIf.jpg",
   },
 ];
+ 
+function QuestionPrompt() {
+  
+}
 
 function DragDrop() {
   const [board, setBoard] = useState([]);
@@ -31,6 +35,11 @@ function DragDrop() {
       isOver: !!monitor.isOver(),
     }),
   }));
+
+  
+  function QuestionPrompt() {
+   
+  }
 
   const addImageToBoard = (id) => {
     const pictureList = PictureList.filter((picture) => id === picture.id);
